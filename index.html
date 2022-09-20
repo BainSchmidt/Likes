@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="display-flex justify-between align-center">
+        <h1>Network</h1>
+    </header>
+
+    <!-- Title -->
+    <div class="title">
+        <h1 class="justify-center align-center text-center">Your Feed</h1>
+    </div>
+    <!-- Main -->
+    <main class="display-flex justify-between">
+
+        <!-- Left Col -->
+
+        <div id="col-2">
+            <div class="left-box justify-center align-center text-center">
+                <div>
+                    <img class="image-size align-center justify-center name-padding-right" src="imgs/user-circle.png"
+                        alt="user image">
+                </div>
+                <a class="new-size-text" href="#">Add an avatar</a>
+                <h2 class="name-padding-left">James Doe</h2>
+            </div>
+        </div>
+
+        <!-- Right Col -->
+
+        <!-- box 1 -->
+        <div id="col-3">
+            <div class="right-box2 justify-center align-center text-center">
+                <div class="display-flex justify-between">
+                    <div>
+                        <h2 class="name-padding-right justify-center text-center align-center">Neil M</h2>
+                    </div>
+                    <div class="display-flex">
+                        <h3 id="count1" class="name-padding-likes">0 Like(s)</h3>
+                        <button class="like-btn" onClick="add1()">Like</button>
+                    </div>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+
+            <!-- box 2 -->
+
+            <div class="right-box2 justify-center align-center text-center ">
+                <div class="display-flex justify-between">
+                    <div>
+                        <h2 class="name-padding-right justify-center text-center align-center">Nichole K</h2>
+                    </div>
+                    <div class="display-flex">
+                        <h3 id="count2" class="name-padding-likes">0 Like(s)</h3>
+                        <button class="like-btn" onClick="add2()">Like</button>
+                    </div>
+                </div>
+                <p>finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+
+            <!-- box 3 -->
+
+            <div class="right-box2 justify-center align-center text-center ">
+                <div class="display-flex justify-between">
+                    <div>
+                        <h2 class="name-padding-right justify-center text-center align-center">Jim R</h2>
+                    </div>
+                    <div class="display-flex">
+                        <h3 id="count3" class="name-padding-likes">0 Like(s)</h3>
+                        <button class="like-btn" onClick="add3()">Like</button>
+                    </div>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>.
+                    Who else is liking it?</p>
+            </div>
+        </div>
+
+    </main>
+    <!-- Script Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>

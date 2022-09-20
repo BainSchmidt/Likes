@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.black-text {
+    color: #000000;
+    font-family: fantasy;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.grey-text {
+    color: #3f3f3f8a;
+}
+
+.black-text {
+    color: black;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* body */
+
+body {
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+/* main */
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Title */
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-family: monospace;
+    padding-left: 20px;
+}
+
+/* all h's an p's */
+
+h2 {
+    font-family: monospace;
+    font-size: 1.7rem;
+}
+
+p {
+    padding: 0px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    font-family: fantasy;
+    font-size: 1.4rem;
+}
+
+/* columns */
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+/* Button */
+
+.like-btn {
+    height: 40px;
+    width: 75px;
+    background-color: #b6a753;
+    color: #000000;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    font-family: monospace;
+    font-weight: 1000;
+    font-size: 15px;
+    box-shadow: 3px 3px #000000;
+    cursor: pointer;
+    margin: 35px;
+    margin-left: 35px;
+}
+
+/* Boxes */
+
+.left-box {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.right-box1 {
+    width: 600px;
+    height: 195px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+.right-box2 {
+    width: 600px;
+    height: 195px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+.right-box3 {
+    width: 600px;
+    height: 195px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+/* Text padding */
+
+.new-size-text {
+    font-size: 1.2rem;
+}
+
+.name-padding-likes {
+    padding: 42px 5px 42px 42px;
+}
+
+.name-padding-right {
+    padding: 37px;
+}
+
+.name-padding-left {
+    font-size: 1.4rem;
+    padding: 25px;
+}
+
+.image-size {
+    width: 120px;
+    height: 120px;
+}
+
+#count1 {
+    background-color: white;
+}
+
+#count2 {
+    background-color: white;
+}
+
+#count3 {
+    background-color: white;
+}
